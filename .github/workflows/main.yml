@@ -22,4 +22,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/slt-devops-app:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/devops-app:latest
